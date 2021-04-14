@@ -14,9 +14,10 @@ To install, run the following commands:
 
 ```
 $ git clone https://github.com/ansgomez/mirocard-scanner-influx.git
-$ cd mirocard-scanner-mqtt
+$ cd mirocard-scanner-influx
 $ npm install @abandonware/noble
 $ npm install @ansgomez/node-beacon-scanner
+$ npm install --save influx
 ```
 ---------------------------------------
 ## Quick Start
