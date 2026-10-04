@@ -23,7 +23,7 @@ const influx = new Influx.InfluxDB({
 //Add DB if it doesn't exist
 influx.getDatabaseNames()
 .then(names=>{
-if(!names.include('mirocard_temp')){
+if(!names.includes('mirocard_temp')){
 return influx.createDatabase('mirocard_temp');
 }
 });
